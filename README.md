@@ -1,11 +1,6 @@
 ## SQLite-Viewer
 
-[![GitHub license](https://img.shields.io/github/license/bjmdevelopers/SQLite-Viewer)](https://github.com/bjmdevelopers/SQLite-Viewer/blob/main/LICENSE)
-[![Live Demo](https://img.shields.io/badge/Demo-SQLite--Viewer-green)](https://bjmdevelopers.github.io/SQLite-Viewer/)
-
 A web-based SQLite database viewer that runs entirely in the browser. No server required!
-
-![SQLite-Viewer Screenshot](./screenshot.png) <!-- Add a screenshot later -->
 
 ## Features
 
