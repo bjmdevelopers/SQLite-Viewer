@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQLite Browser</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/theme/material-darker.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fa-solid fa-database"></i> SQLite Viewer</h1>
+            <div class="header-controls">
+                <label for="dbFile" class="custom-file-upload">
+                    <i class="fa-solid fa-folder-open"></i> Open Database
+                </label>
+                <input type="file" id="dbFile" accept=".sqlite, .db, .sqlite3">
+                <button id="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </header>
+        
+        <p id="message" class="message"></p>
+
+        <div id="db-viewer-container">
+            <div id="sidebar">
+                <div class="sidebar-header">
+                    <h2><i class="fa-solid fa-table-list"></i> Tables</h2>
+                </div>
+                <ul id="table-list">
+                    <li class="no-data">Load a database to see tables</li>
+                </ul>
+            </div>
+            <div id="main-content">
+                <div id="query-section">
+                    <div class="query-header">
+                        <h2><i class="fa-solid fa-terminal"></i> SQL Query</h2>
+                        <button id="execute-query" class="execute-btn" disabled>
+                            <i class="fa-solid fa-play"></i> Execute
+                        </button>
+                    </div>
+                    <div id="sqlQueryContainer"></div>
+                </div>
+                <div id="results-container">
+                    <div id="results-header">
+                        <h3><i class="fa-solid fa-table-cells"></i> Results</h3>
+                        <div id="query-status"></div>
+                    </div>
+                    <div id="results">
+                         <p class="no-data">Results will appear here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sql.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/mode/sql/sql.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
