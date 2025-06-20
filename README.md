@@ -50,20 +50,22 @@ We have a lot of exciting features planned:
 
 -   **[ ] ✍️ Table Data Editing:** Allow users to directly edit, add, and delete rows.
 -   **[ ] 📤 Data Export/Import:** Support for exporting tables or query results to formats like CSV and JSON.
--   **[ ] 🎨 Dark Mode:** A toggle for a more eye-friendly dark theme.
 -   **[ ] 📊 Data Visualization:** Basic charting capabilities for query results.
 
 Have an idea? Feel free to [open an issue](https://github.com/bjmdevelopers/SQLite-Viewer/issues)!
 
+## Acknowledgements
+
+This project was made possible by these incredible open-source technologies:
+
+- **[sql.js](https://github.com/sql-js/sql.js)** (MIT License) - SQLite compiled to WebAssembly, created by [Alon Zakai (@kripken)](https://github.com/kripken) and contributors
+- **[SQLite](https://www.sqlite.org/)** (Public Domain) - Embedded database engine developed by [D. Richard Hipp](https://www.sqlite.org/) and team
+- **[Emscripten](https://emscripten.org/)** (MIT License) - C/C++ to WebAssembly compiler
+- WebAssembly - For enabling native-speed execution in browsers
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you'd like to help improve SQLite-Viewer, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## Acknowledgements
-
-This project uses:
-- [sql.js](https://github.com/sql-js/sql.js) (SQLite compiled to WebAssembly) by [@kripken](https://github.com/kripken) and contributors
-- Original SQLite code by [D. Richard Hipp](https://www.sqlite.org/)
 
 ## 📜 License
 
