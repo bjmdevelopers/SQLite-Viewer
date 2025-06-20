@@ -5,7 +5,6 @@ A web-based SQLite database viewer that runs entirely in the browser. No server 
 ## Features
 
 - 🔍 View SQLite database tables and schemas
-- 📝 Run SQL queries directly in the browser
 - 🚀 Powered by WebAssembly (SQLite compiled to WASM)
 - 💾 Works offline after initial load
 - 🆓 100% client-side - no data leaves your computer
