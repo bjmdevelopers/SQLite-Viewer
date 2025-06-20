@@ -1,13 +1,8 @@
 # SQLite-Viewer
 
-[![GitHub license](https://img.shields.io/github/license/bjmdevelopers/SQLite-Viewer)](https://github.com/bjmdevelopers/SQLite-Viewer/blob/main/LICENSE)
-[![Live Demo](https://img.shields.io/badge/Demo-SQLite--Viewer-green)](https://bjmdevelopers.github.io/SQLite-Viewer/)
-[![GitHub issues](https://img.shields.io/github/issues/bjmdevelopers/SQLite-Viewer)](https://github.com/bjmdevelopers/SQLite-Viewer/issues)
-[![GitHub stars](https://img.shields.io/github/stars/bjmdevelopers/SQLite-Viewer)](https://github.com/bjmdevelopers/SQLite-Viewer/stargazers)
-
 A powerful, 100% client-side SQLite database viewer that runs entirely in your browser. No server, no installation, and no data ever leaves your computer.
 
-![SQLite-Viewer Demo GIF](https://i.imgur.com/your-demo.gif) *A brief demonstration of opening a database and running a query.*
+*A brief demonstration of opening a database and running a query.*
 
 ## ✨ Features
 
