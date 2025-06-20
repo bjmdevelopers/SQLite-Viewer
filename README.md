@@ -41,4 +41,3 @@ cd SQLite-Viewer
 ## License
 
 MIT © [bjmdevelopers](https://github.com/bjmdevelopers)
-```
