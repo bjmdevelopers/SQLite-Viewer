@@ -59,6 +59,12 @@ Have an idea? Feel free to [open an issue](https://github.com/bjmdevelopers/SQLi
 
 Contributions are welcome! If you'd like to help improve SQLite-Viewer, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
+## Acknowledgements
+
+This project uses:
+- [sql.js](https://github.com/sql-js/sql.js) (SQLite compiled to WebAssembly) by [@kripken](https://github.com/kripken) and contributors
+- Original SQLite code by [D. Richard Hipp](https://www.sqlite.org/)
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
