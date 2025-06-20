@@ -2,8 +2,6 @@
 
 A powerful, 100% client-side SQLite database viewer that runs entirely in your browser. No server, no installation, and no data ever leaves your computer.
 
-*A brief demonstration of opening a database and running a query.*
-
 ## ✨ Features
 
 -   **🖥️ Purely Browser-Based:** Operates entirely on the client-side. Your data stays private.
